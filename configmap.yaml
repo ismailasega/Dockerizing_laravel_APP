@@ -1,0 +1,23 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: laravel-ens-test
+data:
+  APP_NAME: Laravel
+  APP_ENV: production
+  APP_KEY: base64:Ve30ePNa4mP0S4HRU6ON5esDWU0kFuRdNGUpOga7jUw
+  APP_DEBUG: true
+  APP_LOG_LEVEL: debug
+  APP_URL: https://wwww.test-devops.com
+  BROADCAST_DRIVER: pusher
+  CACHE_DRIVER: redis
+  QUEUE_DRIVER: redis
+  SESSION_DRIVER: redis
+  DB_HOST: db
+  DB_PORT: 3306
+  DB_DATABASE: devops_assignment
+  DB_USERNAME: devops_assignment
+  DB_PASSWORD: secret
+  DB_CONNECTION: mysql
+  REDIS_HOST: redis
+  REDIS_PORT: "6379"
